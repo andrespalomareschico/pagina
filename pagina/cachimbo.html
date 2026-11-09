@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soy Buen Cachimbo - USMP FIA</title>
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/estilos10.css">
+</head>
+<body class="clean-body">
+
+  <main class="hero-full-container d-flex align-items-center justify-content-center">
+    
+    
+    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1920&q=80" alt="Fondo Cachimbo" class="bg-image">
+    
+    
+    <div class="dark-overlay"></div>
+
+    
+    <div class="floating-card position-relative z-3 p-4 p-md-5 rounded-3 shadow-lg bg-white">
+      
+      <div class="tag text-uppercase fw-bold text-danger mb-1">— GUÍA PARA INGRESANTES</div>
+      <h1 class="display-6 fw-bold text-dark mb-2">Soy buen cachimbo</h1>
+      <hr class="card-divider text-danger border-danger border-2 opacity-100 my-3" style="width: 60px;">
+      
+      <p class="text-secondary small mb-3">
+        Descubre las claves fundamentales para adaptarte rápidamente a la vida universitaria y destacar desde tu primer ciclo.
+      </p>
+
+      
+      <div class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <small class="fw-bold text-muted">Progreso de lectura:</small>
+          <small id="progress-text" class="fw-bold text-danger">25%</small>
+        </div>
+        <div class="progress" style="height: 6px;">
+          <div id="progress-bar" class="progress-bar bg-danger transition-all" role="progressbar" style="width: 25%;"></div>
+        </div>
+      </div>
+
+      
+      <ul class="nav nav-pills nav-fill mb-3 gap-1" id="cachimboTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active text-danger-hover" id="tab-1" data-bs-toggle="pill" data-bs-target="#content-1" type="button" role="tab">1. Horarios</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-2" data-bs-toggle="pill" data-bs-target="#content-2" type="button" role="tab">2. Métodos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-3" data-bs-toggle="pill" data-bs-target="#content-3" type="button" role="tab">3. Recursos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-4" data-bs-toggle="pill" data-bs-target="#content-4" type="button" role="tab">4. Comunidad</button>
+        </li>
+      </ul>
+
+      
+      <div class="tab-content border rounded p-3 bg-light" id="cachimboTabsContent">
+        
+        
+        <div class="tab-pane fade show active" id="content-1" role="tabpanel">
+          <h5 class="fw-bold text-dark">Organización e Inicio de Horarios</h5>
+          <p class="text-secondary small mb-2">Aprende a gestionar tu tiempo desde la primera semana para evitar sobrecargas en parciales.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Asiste puntual a todas tus clases teóricas y de laboratorio.</li>
+            <li>✔ Crea un calendario semanal fijando horas exclusivas de estudio.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-2" role="tabpanel">
+          <h5 class="fw-bold text-dark">Métodos de Estudio Universitario</h5>
+          <p class="text-secondary small mb-2">El colegio quedó atrás; adopta hábitos universitarios de aprendizaje activo.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Repasa los apuntes el mismo día de la clase.</li>
+            <li>✔ Aplica técnicas como Pomodoro o resúmenes en mapas conceptuales.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-3" role="tabpanel">
+          <h5 class="fw-bold text-dark">Aprovecha los Recursos de la FIA</h5>
+          <p class="text-secondary small mb-2">Saca el máximo provecho a las herramientas e infraestructura universitaria.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Utiliza la biblioteca virtual y bases de datos académicas.</li>
+            <li>✔ Solicita asesorías y tutorías docentes cuando tengas dudas.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-4" role="tabpanel">
+          <h5 class="fw-bold text-dark">Vida Universitaria y Networking</h5>
+          <p class="text-secondary small mb-2">Forma equipos de trabajo sólidos y participa en actividades extracurriculares.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Involúcrate en círculos de estudio o proyectos de investigación.</li>
+            <li>✔ Mantén una buena comunicación con tus compañeros y profesores.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script4.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco de Proyectos - Arquitectura</title>
+  <link rel="stylesheet" href="estilos/estilos6.css">
+</head>
+<body>
+
+  <header>
+    
+    <a href="pagina.html" id="homeButton" class="home-btn">Volver al Inicio</a>
+    <h1>Banco de Proyectos - Arquitectura</h1>
+    <input 
+      type="text" 
+      id="searchInput" 
+      class="search-box" 
+      placeholder="Buscar proyecto por título o palabra clave..."
+    >
+  </header>
+
+  <main class="container" id="projectsContainer">
+    
+    <article class="card">
+      <img src="imagenes/centro.jpg" alt="Centro Cultural Urbano Sostenible">
+      <div class="card-content">
+        <h3>Centro Cultural Urbano Sostenible</h3>
+        <p>Propuesta arquitectónica de espacios públicos integrados con criterios bioclimáticos y eficiencia energética para revitalizar el centro de la ciudad.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/vivienda.jpg" alt="Vivienda Colectiva Modular">
+      <div class="card-content">
+        <h3>Vivienda Colectiva Modular</h3>
+        <p>Diseño de complejos habitacionales modulares flexibles que se adaptan a las necesidades cambiantes de las familias modernas y de bajos recursos.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/restauracion.jpg" alt="Restauración y Puesta en Valor Patrimonial">
+      <div class="card-content">
+        <h3>Restauración de Patrimonio Histórico</h3>
+        <p>Proyecto de intervención, rescate y habilitación contemporánea de una antigua casona colonial para su uso como museo de sitio.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/parque.jpg" alt="Parque Metropolitano y Paisajismo">
+      <div class="card-content">
+        <h3>Parque Metropolitano y Paisajismo</h3>
+        <p>Diseño de paisaje e infraestructura recreativa a gran escala para la recuperación de riberas fluviales urbanas y zonas de esparcimiento.</p>
+      </div>
+    </article>
+
+    <div id="noResults" class="no-results">No se encontraron proyectos que coincidan con la búsqueda.</div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

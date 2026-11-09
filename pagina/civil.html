@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco de Proyectos - Ingeniería Civil</title>
+  <link rel="stylesheet" href="estilos/estilos5.css">
+</head>
+<body>
+
+  <header>
+    
+    <a href="pagina.html" id="homeButton" class="home-btn">Volver al Inicio</a>
+    <h1>Banco de Proyectos - Ingeniería Civil</h1>
+    <input 
+      type="text" 
+      id="searchInput" 
+      class="search-box" 
+      placeholder="Buscar proyecto por título o palabra clave..."
+    >
+  </header>
+
+  <main class="container" id="projectsContainer">
+    <article class="card">
+      <img src="imagenes/sismoresistentes.jpg" alt="">
+      <div class="card-content">
+        <h3>Estructuras Sismorresistentes</h3>
+        <p>Análisis y modelado estructural de edificaciones de gran altura aplicando normativas modernas para garantizar la seguridad sísmica.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/pavimento.jpg" alt="Pavimentos Ecológicos con Concreto Reciclado">
+      <div class="card-content">
+        <h3>Pavimentos con Concreto Reciclado</h3>
+        <p>Estudio de viabilidad técnica y resistencia de adoquines viales elaborados a partir de residuos sólidos de construcción y demolición.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/drenaje.jpg" alt="Sistemas de Drenaje Urbano Sostenible">
+      <div class="card-content">
+        <h3>Drenaje Urbano Sostenible (SUDS)</h3>
+        <p>Diseño de infraestructura hídrica e hidráulica avanzada para mitigar inundaciones pluviales en zonas urbanas de alta densidad.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/bim.jpg" alt="Gestión de Proyectos con Metodología BIM">
+      <div class="card-content">
+        <h3>Gestión de Proyectos con BIM</h3>
+        <p>Modelado de información para la construcción que optimiza la coordinación de especialidades, presupuestos y plazos de ejecución en obra.</p>
+      </div>
+    </article>
+
+    <div id="noResults" class="no-results">No se encontraron proyectos que coincidan con la búsqueda.</div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

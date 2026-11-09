@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Cómo creo mi proyecto? - USMP FIA</title>
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/estilos2.css">
+</head>
+<body class="clean-body">
+
+  <main class="hero-full-container d-flex align-items-center justify-content-center">
+    
+    
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=80" alt="Fondo Creación de Proyectos" class="bg-image">
+    
+    
+    <div class="dark-overlay"></div>
+
+    
+    <div class="floating-card position-relative z-3 p-4 p-md-5 rounded-3 shadow-lg bg-white">
+      
+      <div class="tag text-uppercase fw-bold text-danger mb-1">— GUÍA PASO A PASO</div>
+      <h1 class="display-6 fw-bold text-dark mb-2">¿Cómo creo mi proyecto?</h1>
+      <hr class="card-divider text-danger border-danger border-2 opacity-100 my-3" style="width: 60px;">
+      
+      <p class="text-secondary small mb-3">
+        Sigue esta ruta metodológica para estructurar, desarrollar y registrar tu proyecto con éxito en la facultad.
+      </p>
+
+      
+      <div class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <small class="fw-bold text-muted">Progreso de la guía:</small>
+          <small id="progress-text" class="fw-bold text-danger">25%</small>
+        </div>
+        <div class="progress" style="height: 6px;">
+          <div id="progress-bar" class="progress-bar bg-danger transition-all" role="progressbar" style="width: 25%;"></div>
+        </div>
+      </div>
+
+      
+      <ul class="nav nav-pills nav-fill mb-3 gap-1" id="projectStepsTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active text-danger-hover" id="tab-1" data-bs-toggle="pill" data-bs-target="#content-1" type="button" role="tab">1. Idea</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-2" data-bs-toggle="pill" data-bs-target="#content-2" type="button" role="tab">2. Equipo</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-3" data-bs-toggle="pill" data-bs-target="#content-3" type="button" role="tab">3. Plan</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-4" data-bs-toggle="pill" data-bs-target="#content-4" type="button" role="tab">4. Registro</button>
+        </li>
+      </ul>
+
+      
+      <div class="tab-content border rounded p-3 bg-light" id="projectStepsContent">
+        
+        
+        <div class="tab-pane fade show active" id="content-1" role="tabpanel">
+          <h5 class="fw-bold text-dark">1. Define el Problema o Idea</h5>
+          <p class="text-secondary small mb-2">Identifica una necesidad real en el área de tu carrera y define los objetivos principales.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Realiza una investigación preliminar o estado del arte.</li>
+            <li>✔ Delimita claramente el alcance y la problemática a resolver.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-2" role="tabpanel">
+          <h5 class="fw-bold text-dark">2. Reúne a tu Equipo y Asesor</h5>
+          <p class="text-secondary small mb-2">Forma un equipo multidisciplinario y selecciona un profesor guía.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Asigna roles según las competencias de cada integrante.</li>
+            <li>✔ Solicita la aceptación formal de un docente asesor FIA.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-3" role="tabpanel">
+          <h5 class="fw-bold text-dark">3. Elabora el Plan de Trabajo</h5>
+          <p class="text-secondary small mb-2">Diseña el cronograma, la arquitectura técnica y los recursos necesarios.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Establece hitos y fechas de entrega parciales.</li>
+            <li>✔ Selecciona las herramientas, software o laboratorios a utilizar.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-4" role="tabpanel">
+          <h5 class="fw-bold text-dark">4. Registra tu Proyecto</h5>
+          <p class="text-secondary small mb-2">Inscribe tu propuesta oficialmente en el Banco de Proyectos de la facultad.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Sube la documentación requerida con el visto bueno de tu asesor.</li>
+            <li>✔ Comienza con la fase de ejecución y seguimiento de avances.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script6.js"></script>
+</body>
+</html>

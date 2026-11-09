@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco de Proyectos - Ingeniería Industrial</title>
+  <link rel="stylesheet" href="estilos/estilos4.css">
+</head>
+<body>
+
+  <header>
+    
+    <a href="pagina.html" id="homeButton" class="home-btn">Volver al Inicio</a>
+    <h1>Banco de Proyectos - Ingeniería Industrial</h1>
+    <input 
+      type="text" 
+      id="searchInput" 
+      class="search-box" 
+      placeholder="Buscar proyecto por título o palabra clave..."
+    >
+  </header>
+
+  <main class="container" id="projectsContainer">
+    
+    <article class="card">
+      <img src="imagenes/linea.jpg" alt="Optimización de Línea de Producción">
+      <div class="card-content">
+        <h3>Optimización de Línea de Producción</h3>
+        <p>Reingeniería de procesos y estudio de tiempos en plantas de manufactura para reducir cuellos de botella y maximizar la eficiencia.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/cadena.jpg" alt="Gestión Logística y Control de Inventarios">
+      <div class="card-content">
+        <h3>Gestión Logística y Cadena de Suministro</h3>
+        <p>Implementación de modelos de inventario justo a tiempo (JIT) para minimizar costos de almacenamiento y distribución.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/ergonomia.jpg" alt="Ergonomía y Seguridad Ocupacional">
+      <div class="card-content">
+        <h3>Ergonomía y Seguridad Ocupacional</h3>
+        <p>Evaluación y rediseño de puestos de trabajo mediante el método REBA para disminuir riesgos laborales y ausentismo.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/simulacion.jpg" alt="Simulación de Procesos Industriales">
+      <div class="card-content">
+        <h3>Simulación de Procesos con Software</h3>
+        <p>Modelado estocástico de líneas de servicio y manufactura para evaluar escenarios de mejora operativa antes de su implementación.</p>
+      </div>
+    </article>
+
+    <div id="noResults" class="no-results">No se encontraron proyectos que coincidan con la búsqueda.</div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

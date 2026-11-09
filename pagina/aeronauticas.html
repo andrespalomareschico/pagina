@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco de Proyectos - Ciencias Aeronáuticas</title>
+  <link rel="stylesheet" href="estilos/estilos7.css">
+</head>
+<body>
+
+  <header>
+    <a href="pagina.html" id="homeButton" class="home-btn">Volver al Inicio</a>
+    <h1>Banco de Proyectos - Ciencias Aeronáuticas</h1>
+    <input 
+      type="text" 
+      id="searchInput" 
+      class="search-box" 
+      placeholder="Buscar proyecto por título o palabra clave..."
+    >
+  </header>
+
+  <main class="container" id="projectsContainer">
+    
+    <article class="card">
+      <img src="imagenes/trafico.jpg" alt="Optimización de Rutas de Tráfico Aéreo">
+      <div class="card-content">
+        <h3>Optimización de Rutas de Tráfico Aéreo</h3>
+        <p>Estudio de gestión de espacio aéreo para la reducción de consumo de combustible y tiempos de espera en aproximación mediante algoritmos predictivos.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/humanos.jpg" alt="Simulador de Vuelo y Factores Humanos">
+      <div class="card-content">
+        <h3>Factores Humanos en Cabina de Mando</h3>
+        <p>Análisis de fatiga operacional y gestión de recursos de tripulación (CRM) evaluados a través de escenarios de simulación de vuelo avanzada.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/turbina.jpg" alt="Mantenimiento Aeronáutico Preventivo">
+      <div class="card-content">
+        <h3>Mantenimiento Predictivo de Turbinas</h3>
+        <p>Implementación de sensores IoT y análisis de vibraciones en motores de aviación comercial para detectar fallas antes de su ocurrencia en vuelo.</p>
+      </div>
+    </article>
+
+    
+    <article class="card">
+      <img src="imagenes/seguridad.jpg" alt="Gestión de Seguridad Operacional SMS">
+      <div class="card-content">
+        <h3>Sistemas de Gestión de Seguridad (SMS)</h3>
+        <p>Diseño de protocolos de mitigación de riesgos y reporte de incidentes en aeropuertos internacionales bajo normativas de la OACI.</p>
+      </div>
+    </article>
+
+    <div id="noResults" class="no-results">No se encontraron proyectos que coincidan con la búsqueda.</div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

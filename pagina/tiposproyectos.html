@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Proyectos - USMP FIA</title>
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/estilos2.css">
+</head>
+<body class="clean-body">
+
+  <main class="hero-full-container d-flex align-items-center justify-content-center">
+    
+    
+    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1920&q=80" alt="Fondo Tipos de Proyectos" class="bg-image">
+    
+    
+    <div class="dark-overlay"></div>
+
+    
+    <div class="floating-card position-relative z-3 p-4 p-md-5 rounded-3 shadow-lg bg-white">
+      
+      <div class="tag text-uppercase fw-bold text-danger mb-1">— CLASIFICACIÓN FIA</div>
+      <h1 class="display-6 fw-bold text-dark mb-2">Tipos de Proyectos</h1>
+      <hr class="card-divider text-danger border-danger border-2 opacity-100 my-3" style="width: 60px;">
+      
+      <p class="text-secondary small mb-3">
+        Conoce las diferentes categorías y enfoques metodológicos en los que puedes desarrollar tu proyecto de ingeniería o arquitectura.
+      </p>
+
+      
+      <div class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <small class="fw-bold text-muted">Progreso de revisión:</small>
+          <small id="progress-text" class="fw-bold text-danger">25%</small>
+        </div>
+        <div class="progress" style="height: 6px;">
+          <div id="progress-bar" class="progress-bar bg-danger transition-all" role="progressbar" style="width: 25%;"></div>
+        </div>
+      </div>
+
+      
+      <ul class="nav nav-pills nav-fill mb-3 gap-1" id="projectTypesTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active text-danger-hover" id="tab-1" data-bs-toggle="pill" data-bs-target="#content-1" type="button" role="tab">1. Aplicados</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-2" data-bs-toggle="pill" data-bs-target="#content-2" type="button" role="tab">2. Innovación</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-3" data-bs-toggle="pill" data-bs-target="#content-3" type="button" role="tab">3. Software</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-4" data-bs-toggle="pill" data-bs-target="#content-4" type="button" role="tab">4. Social</button>
+        </li>
+      </ul>
+
+      
+      <div class="tab-content border rounded p-3 bg-light" id="projectTypesContent">
+        
+        
+        <div class="tab-pane fade show active" id="content-1" role="tabpanel">
+          <h5 class="fw-bold text-dark">Proyectos de Investigación Aplicada</h5>
+          <p class="text-secondary small mb-2">Resuelven problemas técnicos específicos utilizando teorías y metodologías de ingeniería ya comprobadas.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Optimización de procesos industriales o constructivos.</li>
+            <li>✔ Estudios de resistencia de materiales y estructuras.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-2" role="tabpanel">
+          <h5 class="fw-bold text-dark">Proyectos de Innovación Tecnológica</h5>
+          <p class="text-secondary small mb-2">Creación o mejora sustancial de productos, servicios o procesos utilizando nuevas tecnologías.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Integración de dispositivos IoT y automatización.</li>
+            <li>✔ Propuestas arquitectónicas bioclimáticas y sostenibles.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-3" role="tabpanel">
+          <h5 class="fw-bold text-dark">Proyectos de Desarrollo de Software</h5>
+          <p class="text-secondary small mb-2">Diseño y construcción de sistemas informáticos, aplicaciones móviles o plataformas web.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Plataformas de gestión con bases de datos seguras.</li>
+            <li>✔ Algoritmos de inteligencia artificial aplicados al análisis de datos.</li>
+          </ul>
+        </div>
+
+        
+        <div class="tab-pane fade" id="content-4" role="tabpanel">
+          <h5 class="fw-bold text-dark">Proyectos de Impacto Social</h5>
+          <p class="text-secondary small mb-2">Iniciativas enfocadas en mejorar la calidad de vida de comunidades vulnerables o resolver problemas urbanos.</p>
+          <ul class="list-unstyled text-secondary small m-0">
+            <li>✔ Sistemas de saneamiento y drenaje sostenible.</li>
+            <li>✔ Programas de capacitación digital y desarrollo comunitario.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script5.js"></script>
+</body>
+</html>
